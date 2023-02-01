@@ -1,0 +1,90 @@
+.launch-section{
+    background-color: var(--black);
+    width: 100%;
+    padding: 90px;
+    display: block;
+    margin: 20px auto;
+}
+
+.main-launch-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.launch-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--white);
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+.launchBtn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.launchContactBtn svg{
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+
+@media (max-width: 420px){
+
+
+    .launch-section{
+        background-color: var(--black);
+        width: 100%;
+        padding: 40px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .launchBtn{
+        display: block;
+        margin: 50px auto;
+        gap: 0;
+
+    }
+
+    .launchBtn a{
+        margin-top: 20px;
+    }
+
+
+
+.main-launch-text{
+
+    font-size: 30px;
+    line-height: 56px;
+   
+
+}
+
+.launch-text{
+  
+    font-size: 18px;
+    line-height: 38px;
+    width: 90%;
+    
+}
+
+}

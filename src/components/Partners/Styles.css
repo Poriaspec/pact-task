@@ -1,0 +1,186 @@
+
+
+
+.partners-section{
+    padding: 70px;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+.partners-first-content{
+    display: flex;
+    width: 100%;
+}
+
+
+.partnerBtn{
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.partner-btn{
+    width: 40%;
+    display: block;
+    margin: 0px auto;
+}
+
+.partnerInnerBtn1{
+    margin-left: 120px;
+}
+
+.partnerInnerBtn2{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    border: 1px solid var(--primary-800);
+    border-radius: 8px;
+    color: var(--primary-800);
+    margin-right: 50px;
+} 
+
+.partnerInnerBtn2 svg{
+    margin-top: 3px;
+}
+
+
+.partner-image-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.content{
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+}
+
+.content p{
+   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 34px;
+letter-spacing: -0.035em;
+color:var(--white);
+}
+
+.bg_image_1{
+    background-image: url(../../assets/vfdPartner.png);
+    object-fit: contain;
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    filter: grayscale(70%);
+}
+
+
+.bg_image_2{
+    background-image: url(../../assets/ThePeerPartner.png);
+    object-fit: contain;
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    filter: grayscale(70%);
+}
+
+
+.bg_image_3{
+    background-image: url(../../assets/SendyitPartner.png);
+    object-fit: contain;
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    filter: grayscale(70%);
+}
+
+
+.partner-image-content h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    color: #2B2B2B;
+    width: 90%;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .partners-section{
+        padding: 30px;
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .partner-image-section{
+        display: block;
+       margin: 10px auto;
+        gap: 10px;
+    }
+
+    .partnerInnerBtn1{
+        margin-left: 20px;
+    }
+
+.partners-first-content{
+    display: block;
+    width: 100%;
+}
+
+
+    
+}
+
+
+
+
+@media (max-width: 420px){
+
+    .partner-image-section{
+        display: block;
+       margin: 10px auto;
+        gap: 10px;
+    }
+
+    .partnerBtn{
+        display: block;
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .partnerBtn a{
+        margin-top: 20px;
+    }
+
+    .partner-btn{
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .bg_image_1{
+        width: 320px;
+    }
+    
+    .bg_image_2{
+        width: 320px;
+    }
+    .bg_image_3{
+        width: 320px;
+    }
+    
+    
+
+}
+

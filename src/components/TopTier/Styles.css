@@ -1,0 +1,113 @@
+.top-tier-section{
+   padding: 80px;
+}
+
+.top-tier-section h2{
+    width: 50%;
+}
+
+.top-tier{
+    display: flex;
+    margin-top: 30px;
+}
+
+.top-tier-inner-section{
+    background-color: var(--primary-600);
+
+}
+
+.top-tier-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--white);
+    width: 70%;
+    display: flex;
+    margin: 100px auto 40px auto;
+
+}
+
+.selah{
+    display: flex;
+    justify-content: center;
+}
+
+.selah svg{
+    margin-top: 5px;
+
+}
+
+.selah-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--white);
+    padding-left: 10px;
+
+}
+
+.tier-btn{
+    width: 50%;
+    display: block;
+    margin: 50px auto;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .top-tier{
+        display: block;
+        margin-top: 30px;
+    }
+    .top-tier-section h2{
+        width: 80%;
+    }
+    .top-tier-inner-section{
+      padding: 30px;
+    
+    }
+
+    .tier-btn{
+        width: 80%;
+        display: block;
+        margin: 50px auto;
+    }
+
+    
+}
+
+
+@media (max-width: 420px){
+
+    .top-tier-section{
+        padding: 20px;
+     }
+    .top-tier-section h2{
+        width: 95%;
+    }
+    
+    .top-tier-inner-section{
+        padding: 10px;
+      
+      }
+      .tier-btn{
+        width: 95%;
+        display: block;
+        margin: 50px auto;
+    }
+
+        .selah-text{
+            
+            font-size: 18px;
+            line-height: 40px;
+        }
+
+
+
+}
