@@ -67,11 +67,12 @@
     
     .spend-section-image-content{
         width: 90%;
-        margin-top: 20px;
+        margin: 20px auto;
     }
 
+
     .spend-section{
-        padding-bottom: 30px;
+        padding-bottom: 90px;
     }
 
   

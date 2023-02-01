@@ -97,13 +97,12 @@
       
       }
       .tier-btn{
-        width: 95%;
+        width: 100%;
         display: block;
         margin: 50px auto;
     }
 
         .selah-text{
-            
             font-size: 18px;
             line-height: 40px;
         }

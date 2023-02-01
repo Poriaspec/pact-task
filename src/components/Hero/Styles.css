@@ -83,4 +83,10 @@
         margin: 10px auto;
         text-align: center;
     }
+
+    .heroBtn{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
 }

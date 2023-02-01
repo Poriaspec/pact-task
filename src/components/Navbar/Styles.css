@@ -12,7 +12,7 @@
 
 .navbar{
     background: var(--white);
-    height: 120px;
+    height: 80px;
     left: 0;
     position: fixed;
     top: 0;
@@ -174,8 +174,6 @@ color: var(--primary-600);
 
   }
 
-
-
 .logo img{
   width: 60px;
   height: 60px;
@@ -201,7 +199,18 @@ color: var(--primary-600);
     ul li p{
       font-size: 20px;
     }
+    ul li{
+      padding-top: 20px;
+    }
 
+
+  .mobile-btn{
+    display: block;
+    margin-left: 30px;
+    width: 50%;
+    margin-top: 20px;
+
+  }
 }
 
 

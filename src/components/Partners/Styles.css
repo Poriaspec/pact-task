@@ -179,8 +179,14 @@ color:var(--white);
     .bg_image_3{
         width: 320px;
     }
-    
-    
 
+    .partnerInnerBtn1{
+        margin-left: 0px;
+    }
+    
+    
+    .partnerInnerBtn2{
+        width: 100%;
+    }
 }
 
