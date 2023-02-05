@@ -44,6 +44,11 @@
     margin-top: 20px;
   }
 
+  .learn-section{
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+}
   }
   
 
@@ -55,7 +60,6 @@
       margin: 10px auto;
       padding: 20px;
       width: 100%;
-      gap: 10px;
   }
 
   .learn-section-inner-content1, .learn-section-inner-content2{
@@ -66,9 +70,9 @@
   }
 
   .learn-section{
-    padding: 30px 10px;
+    padding: 30px 0px;
     display: block;
-    width: 95%;
+    width: 100%;
     margin: 20px auto;
 }
 
