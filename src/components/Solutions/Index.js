@@ -39,6 +39,11 @@ function Index() {
 
       <div className="solution-step flex justify-center items-center mt-28 gap-10">
 
+
+      <div className="solution-imgMobile">
+          <img src={Solutions2} alt="solutions-img" className="w-11/12" />
+        </div>
+
         <div className="solution-cont">
           <h1 className="w-11/12">Send money in seconds, for free - for real</h1>
           <p className="w-11/12">
@@ -52,7 +57,7 @@ function Index() {
         </div>
 
 
-        <div className="solution-img">
+        <div className="solution-imgDesktop">
           <img src={Solutions2} alt="solutions-img" className="w-11/12" />
         </div>
 

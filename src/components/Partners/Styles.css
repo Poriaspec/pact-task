@@ -82,8 +82,8 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
-    display: block;
-    margin: 0px auto;
+    /* display: block;
+    margin: 0px auto; */
 }
 
 
@@ -95,8 +95,7 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
-    display: block;
-    margin: 0px auto;
+ 
 }
 
 
@@ -108,8 +107,7 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
-    display: block;
-    margin: 0px auto;
+  
 }
 
 
@@ -157,9 +155,15 @@ color:var(--white);
 .partner-image-content h6{
     display: block;
     margin: 0px auto;
-    width: 60%;
+    width: 40%;
 }
 
+
+.bg_image_1, .bg_image_2, .bg_image_3{
+
+    display: block;
+    margin: 0px auto; 
+}
 
 
     

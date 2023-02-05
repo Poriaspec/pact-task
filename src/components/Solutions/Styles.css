@@ -50,6 +50,9 @@
   margin: 10px auto;
 } 
 
+.solution-imgMobile{
+  display: none;
+}
 
   @media only screen and (min-width: 540px) and (max-width: 1024px) {
 
@@ -70,7 +73,16 @@
     width: 80%;
   }
 
+  .solution-imgMobile{
+    display: block;
+  }
+
+  .solution-imgDesktop{
+    display: none;
+  }
 }
+
+
 
 @media (max-width: 425px) {
 
@@ -110,5 +122,14 @@
   .solution-step2 {
     display: block;
     margin: 30px auto;
+  }
+
+
+  .solution-imgMobile{
+    display: block;
+  }
+
+  .solution-imgDesktop{
+    display: none;
   }
 }
