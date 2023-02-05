@@ -4,6 +4,7 @@ import Logo from "../../assets/Logo.png";
 import Button from "../Button/Index";
 import {HiMenuAlt3} from "react-icons/hi"
 import {ImCross} from "react-icons/im"
+import { Link } from "react-router-dom";
 
 function Index() {
 
@@ -11,7 +12,7 @@ function Index() {
 
 
   return (
-    <nav className="navbar flex justify-between align-center ">
+    <nav className="navbar flex justify-between align-center">
 
       <div className="logo">
         <a href="/" className="flex justify-center items-center mt-1">
@@ -45,8 +46,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href ="/">Link 1</a>
+              <a href ="/">Link 2</a>
             </div>
           </li>
 
@@ -67,8 +68,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
 
             </div>
           </li>
@@ -90,8 +91,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -114,8 +115,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -136,23 +137,25 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
         </ul>
 
-      </div>
+      </div> 
+
+
 
       <div className="desktop-btn">
       <a href="/">
         <Button name={"Get Started"} className={"btn-1"} />
       </a>
     </div>
-    
+     
 
    
-   
+
     <nav className="mobile-nav">
 
 
@@ -183,8 +186,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -205,8 +208,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -227,8 +230,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -249,13 +252,13 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
           <li className="dropdown">
-            <a href="/" className="dropbtn">
+            <a a href="/" className="dropbtn">
               <p>Resources</p>
               <svg
                 width="17"
@@ -271,8 +274,8 @@ function Index() {
               </svg>
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
             </div>
           </li>
 
@@ -289,11 +292,11 @@ function Index() {
 
 
       <div className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
-          {Mobile ? <ImCross className="bars  dark:text-secondary-light text-primary-dark" /> : <HiMenuAlt3 className="bars dark:text-secondary-light text-primary-dark" />}
+          {Mobile ? <ImCross className="bars" /> : <HiMenuAlt3 className="bars" />}
       </div>
 
 
-      </nav>
+      </nav> 
 
 
 

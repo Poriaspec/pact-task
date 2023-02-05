@@ -1,13 +1,22 @@
 import React from 'react';
 import "./index.css"
 import Homepage from './pages/Homepage';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   
   return (
-    <div className="App">
-     <Homepage/>
+
+    <div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Homepage/>} />
+        </Routes>
+      </Router>
     </div>
+
+  
   );
 }
 

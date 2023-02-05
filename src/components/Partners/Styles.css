@@ -1,6 +1,5 @@
 
 
-
 .partners-section{
     padding: 70px;
     display: block;
@@ -12,6 +11,8 @@
 .partners-first-content{
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -19,6 +20,8 @@
     display: flex;
     margin-top: 70px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .partner-btn{
@@ -51,6 +54,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
+    margin-top: 30px;
 }
 
 .content{
@@ -78,6 +82,8 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
+    display: block;
+    margin: 0px auto;
 }
 
 
@@ -89,6 +95,8 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
+    display: block;
+    margin: 0px auto;
 }
 
 
@@ -100,6 +108,8 @@ color:var(--white);
     background-repeat: no-repeat;
     margin-top: 50px;
     filter: grayscale(70%);
+    display: block;
+    margin: 0px auto;
 }
 
 
@@ -114,7 +124,7 @@ color:var(--white);
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 540px) and (max-width: 1024px)  {
 
     .partners-section{
         padding: 30px;
@@ -125,8 +135,8 @@ color:var(--white);
     
     .partner-image-section{
         display: block;
-       margin: 10px auto;
-        gap: 10px;
+         margin: 10px auto;
+     
     }
 
     .partnerInnerBtn1{
@@ -136,7 +146,20 @@ color:var(--white);
 .partners-first-content{
     display: block;
     width: 100%;
+    margin: 0px auto;
 }
+
+.partner-image-content{
+    display: block;
+    margin: 20px auto;
+
+}
+.partner-image-content h6{
+    display: block;
+    margin: 0px auto;
+    width: 60%;
+}
+
 
 
     
@@ -145,12 +168,27 @@ color:var(--white);
 
 
 
-@media (max-width: 420px){
+@media (max-width: 425px){
+
+
+    .partners-section{
+        padding: 20px;
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+
+    .partners-first-content{
+        display: block;
+        width: 100%;
+    }
 
     .partner-image-section{
         display: block;
-       margin: 10px auto;
-        gap: 10px;
+        margin: 10px auto;
+    
+        /* gap: 10px; */
     }
 
     .partnerBtn{
@@ -169,15 +207,39 @@ color:var(--white);
         margin: 0px auto;
     }
 
+    .partner-image-content{
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+
+    .partner-image-content h6{
+        display: block;
+        margin: 0px auto;
+        width: 80%;
+    }
+
     .bg_image_1{
-        width: 320px;
+        width: 280px;
+        display: block;
+        margin: 0px auto;
+
+      
+     
     }
     
     .bg_image_2{
-        width: 320px;
+        width: 280px;
+        display: block;
+        margin: 0px auto;
+
     }
     .bg_image_3{
-        width: 320px;
+        width: 280px;
+        display: block;
+        margin: 0px auto;
+    
     }
 
     .partnerInnerBtn1{

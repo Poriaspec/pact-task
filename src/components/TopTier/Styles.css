@@ -59,7 +59,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 540px) and (max-width: 1024px)  {
 
     .top-tier{
         display: block;
@@ -83,10 +83,15 @@
 }
 
 
-@media (max-width: 420px){
+@media (max-width: 425px){
+
+    .top-tier{
+        display: block;
+        margin-top: 30px;
+    }
 
     .top-tier-section{
-        padding: 20px;
+        padding: 10px;
      }
     .top-tier-section h2{
         width: 95%;

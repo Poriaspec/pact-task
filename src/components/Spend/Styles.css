@@ -1,20 +1,48 @@
 .spend-section{
-    width: 80%;
+    width: 90%;
     background-color: var(--purple-bg);
     display: block;
     margin: 0px auto;
-    padding-top: 40px;
 }
+
 
 .spend-section-content{
     display: flex;
-    height: 70vh;
+    height: auto;
     width: 100%;
+    padding: 80px;
 }
 
 
 .spend-section-text-content{
+    width: 80%;
+
+}
+
+.spend-section-image-content{
+    width: 60%;
+
+}
+
+.spend-section-image-content img{
+    height: 600px;
+    object-fit: contain;
+    display: block;
+    margin: 0px auto;
+}
+
+/* 
+
+
+
+
+    
+} */
+
+/* 
+.spend-section-text-content{
     width: 55%;
+    height: auto;
     margin-left: 80px;
     margin-top: 40px;
 }
@@ -26,16 +54,29 @@
 
 .spend-section-image-content{
     width: 60%;
+    height: auto;
 }
 
+.spend-section-image-content img{
+    height: 600px;
+    width: 600px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto 0px auto;
+} */
 
 
-  @media screen and (max-width: 768px) {
+
+
+@media only screen and (min-width: 540px) and (max-width: 1024px)  {
+
+   
 
     .spend-section-content{
         display: block;
-        height: 100vh;
         width: 100%;
+        height: auto;
+        padding: 30px;
     }
 
     .spend-section-text-content{
@@ -46,6 +87,15 @@
 
     .spend-section-image-content{
         width: 90%;
+        height: auto;
+    }
+
+    .spend-section-image-content img{
+        height: 400px;
+        width: 400px;
+        object-fit: contain;
+        display: block;
+        margin: 0px auto;
     }
     
     
@@ -54,10 +104,24 @@
   
   
   
-  @media (max-width: 420px){
+  @media (max-width: 425px){
 
     .spend-section{
         width: 90%;
+        display: block;
+        margin: 0px auto;
+       
+    }
+
+    .spend-section-content{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .spend-section-text-content{
+        width: 100%;
+        margin-top: 20px;
     }
     
 
@@ -71,9 +135,13 @@
     }
 
 
-    .spend-section{
-        padding-bottom: 90px;
+    .spend-section-image-content img{
+        height: 350px;
+        width: 350px;
+        object-fit: contain;
+        display: block;
+        margin: 0px auto;
     }
-
+    
   
   }

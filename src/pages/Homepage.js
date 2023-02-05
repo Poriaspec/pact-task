@@ -9,24 +9,64 @@ import Learn from "../components/Learn/Index"
 import Launch from "../components/Launch/Index"
 import TopTier from "../components/TopTier/Index"
 import Partners from "../components/Partners/Index"
+import Fade from 'react-reveal/Fade';
 
 
 
 function Homepage() {
 
+
   return (
 
-    <div>
-        <Navbar/>
+    <div  >
+
+
+        <Navbar />
+
+        <Fade big>
         <Hero/>
+        </Fade>
+
+        <Fade left>
         <Solutions/>
+        </Fade>
+      
+
+        <Fade right>
         <Redifining/>
+        </Fade>
+
+        <Fade big>
         <Testimonial/>
+        </Fade>
+        
+   
+        <Fade left>
         <Spend/>
-        <Learn/>
+        </Fade>
+
+
+          <Fade right>
+          <Learn/>
+          </Fade>
+
+
+        <Fade big>
         <Launch/>
+        </Fade>
+    
+
+        <Fade left>
         <TopTier/>
-        <Partners/>
+        </Fade>
+       
+
+       <Fade right>
+       <Partners/>
+       </Fade>
+  
+
+
     </div>
 
   )

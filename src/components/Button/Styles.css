@@ -14,7 +14,10 @@
 }
 
 
-@media (max-width: 420px){
+
+
+@media only screen and (min-width: 100px) and (max-width: 425px){
+    
     .btn-1{
         width: 100%;
     }

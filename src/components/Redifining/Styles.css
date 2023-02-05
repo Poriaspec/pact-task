@@ -1,6 +1,6 @@
 .redifining-section{
-    padding: 45px;
-    margin-top: 50px;
+    width: 90%;
+    margin: 40px auto;
 }
 
 .redifine-svg{
@@ -24,7 +24,7 @@
 
 .redifining-img img{
     width: 100%;
-    height: 650px;
+    height: 700px;
     background-size: cover;
 
 }
@@ -38,7 +38,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 540px) and (max-width: 1024px) {
 
     
     .redifining-content{
@@ -59,7 +59,8 @@
     .redifining-img img{
         display: block;
         margin: 40px auto;
-        width: 600px;
+        width: 500px;
+        height: 500px;
         background-size: contain;
     }
 
@@ -68,17 +69,33 @@
 }
 
 
-@media (max-width: 420px){
+@media (max-width: 425px){
 
+      
+    .redifining-content{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .redifining-content p{
+        width: 100%;
+    }
+
+    .redifining-inner-cont{
+        margin-top: 20px;
+    }
+    
     .redifining-section h2{
         font-size: 25px;
+        line-height: 45px;
     }
 
     .redifining-img img{
         display: block;
-        margin: 40px auto;
-        width: 350px;
-        background-size: contain;
+        margin: 30px auto;
+        width: 500px; 
+        height: 500px;
+        background-size: cover;
     }
 
 

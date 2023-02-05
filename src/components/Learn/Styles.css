@@ -1,17 +1,15 @@
 .learn-section{
-    padding: 50px;
     display: block;
     width: 90%;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .learn-section-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
     width: 100%;
-    gap: 30px;
+    gap: 50px;
 }
 
 
@@ -31,7 +29,7 @@
   }
   
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
     .learn-section-content{
       display: block;
@@ -39,6 +37,10 @@
       padding: 30px;
       width: 100%;
       gap: 20px;
+  }
+
+  .learn-section-inner-content1, .learn-section-inner-content2{
+    margin-top: 20px;
   }
 
   }

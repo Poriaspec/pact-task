@@ -1,152 +1,114 @@
-.solutions-section{
-    padding: 0px 54px;
+.solutions-section {
+  padding: 0px 54px;
 }
 
-.solutions-section h2{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 56px;
-text-align: center;
-color: var( --grey-900);
+.solutions-section h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: var(--grey-900);
 }
 
-.solutions-section p{
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-text-align: center;
-color: var(--grey-800);
-width: 46%;
-display: block;
-margin: 30px auto;
-
+.solutions-p{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--grey-800);
+  width: 46%;
+  display: block;
+  margin: 30px auto;
 }
 
-.solution-step{
-    display: flex;
-    margin-top: 80px;
+
+.solution-cont h1{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 56px;
+  color: var(--grey-900);
+  text-align: left;
+  display: block;
+  margin: 10px auto;
 }
 
-.solution-img{
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    margin-left: 20px;
-    
+.solution-cont p{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--grey-800);
+  text-align: left;
+  display: block;
+  margin: 10px auto;
+} 
+
+
+  @media only screen and (min-width: 540px) and (max-width: 1024px) {
+
+  .solutions-section h2{
+    line-height: 50px;
   }
 
-  .solutionsImg1 {
-    position: relative;
-    top: 0;
-    left: 0;
+  .solutions-section h1{
+    line-height: 50px;
   }
 
-  .solutionsImg2 {
-    position: absolute;
-    top: 40px;
-    left: -15px;
+  .solution-step {
+    display: block;
+    margin: 30px auto;
   }
 
-  .solution-cont{
+  .solutions-p{
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  .solutions-section {
+    padding: 0px 10px;
+  }
+
+  .solutions-section h2 {
+    font-size: 30px;
+  }
+
+  .solution-img {
+    margin-left: 10px;
     width: 95%;
-    margin-right: 50px;
-    margin-top: 50px;
   }
 
-  .solution-cont h1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 56px;
-    color: var(--grey-900);
-    text-align: left;
-    width: 80%;
+  .solution-cont h1 {
+    width: 95%;
     display: block;
     margin: 10px auto;
-
+    line-height: 45px;
   }
 
-  .solution-cont p{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: var(--grey-800);
-    text-align: left;
-    width: 80%;
-    display: block;
-    margin: 10px auto;
-
-  }
-
-  .solution-step2{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 70px;
-  }
-
-  
-  @media screen and (max-width: 768px) {
-
-    .solutions-section p{
-
-      width: 80%;
-  
-      }
-
-      .solution-step{
-        display: block;
-        margin: 30px auto;
-    }
-  
-    .solution-step2{
-      display: block;
-      margin: 30px auto;
-    }
-
-    .solution-img{
-    
-      margin-left: 40px;
-      
-    }
-    
-  }
-  
-  
-  @media (max-width: 420px){
-
-    .solutions-section{
-      padding: 0px 10px;
-  }
-
-    .solutions-section h2{
-      font-size: 30px;
-      }
-      
-      .solution-img{
-        margin-left: 10px;
-        width: 95%;
-      }
-  
-
-  .solution-cont h1{
-
-    width: 90%;
-    display: block;
-    margin: 10px auto;
-
-  }
-
-  .solution-cont p{
+  .solutions-section p {
     width: 90%;
   }
-  
+
+  .solution-cont p {
+    width: 95%;
   }
+
+  .solution-step {
+    display: block;
+    margin: 30px auto;
+  }
+
+  .solution-step2 {
+    display: block;
+    margin: 30px auto;
+  }
+}
